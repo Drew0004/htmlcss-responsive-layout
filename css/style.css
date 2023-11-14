@@ -22,6 +22,7 @@ body{
     --cyan-color: #B5DDFF;
     --margin-top-30: 30px;
     --gray-color: rgb(78, 78, 78);
+    --purple-color: #9792E4;
 }
 
 .container{
@@ -79,6 +80,8 @@ body{
 /* 
     main 
 */
+
+/* section 1  */
 
 .card-big{
     width: 100%;
@@ -158,11 +161,62 @@ body{
     width: 100%;
     display: block;
 }
+
+/* section 2 */
+
+.section-2{
+    background-color: var(--purple-color);
+}
+
+.left-box{
+    width: 100%;
+}
+
+.right-box{
+    width: 100%;
+}
+
+.white-card{
+    width: 100%;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.drawing-text-box{
+    padding: 0 30px;
+}
+
+.white-card .drawing-text-box > *{
+    text-align: center;
+}
+
+.white-card .drawing-text-box > p{
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.drawing-img-box{
+    width: 80%;
+}
+
+.drawing-img-box > img{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.drawing-text-box > *{
+    padding: 10px 0;
+}
+
 /* 
     footer 
 */
 
-/* Media Query */
+/* ---------------------MEDIA QUERY-------------------- */
 
 /* Breakpoint tablet */
 
