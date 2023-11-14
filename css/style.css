@@ -164,9 +164,9 @@ body{
 
 /* section 2 */
 
-.section-2{
+.purple-background{
     background-color: var(--purple-color);
-    padding: 30px 0;
+    padding: 50px 0;
     margin: 50px 0;
 }
 
@@ -282,6 +282,39 @@ body{
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* section 4 */
+
+.purple-background > .container > h2{
+    color: var(--white-color);
+    text-align: center;
+}
+
+.purple-background .card{
+    width: 100%;
+    background-color: var(--white-color);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.number{
+    font-size: 4em;
+}
+
+.purple-background .card .card-text h2{
+    color: var(--purple-color);
+}
+
+.purple-background .card .card-text p{
+    line-height: 1.5em;
+}
+
+.purple-background .card .card-text button{
+    border: 1px solid var(--purple-color);
+    background-color: var(--purple-color);
 }
 
 /* 
