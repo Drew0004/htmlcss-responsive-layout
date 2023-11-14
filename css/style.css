@@ -12,11 +12,42 @@
     general 
 */
 
-/* 
-    main 
-*/
+:root{
+    --blue-color: #0483FC;
+}
 
 .container{
     margin: 0 auto;
     max-width: 1200px;
 }
+
+/* 
+    header 
+*/
+
+.navbar{
+    background-color: var(--blue-color);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.hmb-menu{
+    display: none;
+}
+
+/* 
+    main 
+*/
+
+/* 
+    footer 
+*/
+
+/* Media Query */
