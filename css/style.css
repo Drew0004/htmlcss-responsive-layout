@@ -164,10 +164,38 @@ body{
 
 /* Media Query */
 
+/* Breakpoint tablet */
+
+@media screen and (min-width: 768px) {
+    
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 20px;
+    }
+
+    .card-big{
+        width: calc(((100% / 3) * 2) - 20px);
+        margin: 10px 10px;
+    }
+
+    .card{
+        width: calc((100% / 3) - 20px);
+        margin: 10px 10px;
+    }
+
+    .card-bottom{
+        justify-content: flex-start;
+    }
+}
+
 /*  Breakpoint desktop */
 
 @media screen and (min-width: 992px) {
 
+    /* header */
     .nav-container > ul{
         display: block;
     }
@@ -175,5 +203,32 @@ body{
     .hmb-menu{
         display: none;
     }
-    
+
+    /* main - section 1 */
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 20px;
+    }
+
+    .card-big{
+        width: calc(((100% / 3) * 2) - 20px);
+        margin: 10px 10px;
+    }
+
+    .card{
+        width: calc((100% / 3) - 20px);
+        margin: 10px 10px;
+    }
+
+    .card-big .card-top{
+        width: 60%;
+    }
+
+    .card-big .card-bottom{
+        width: 40%;
+        justify-content: center;
+    }
 }
