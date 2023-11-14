@@ -19,11 +19,15 @@ body{
 :root{
     --blue-color: #0483FC;
     --white-color: white;
+    --cyan-color: #B5DDFF;
+    --margin-top-30: 30px;
+    --gray-color: rgb(78, 78, 78);
 }
 
 .container{
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 30px;
 }
 
 .button{
@@ -38,6 +42,7 @@ body{
 */
 
 .navbar{
+    width: 100%;
     background-color: var(--blue-color);
     padding: 15px;
 }
@@ -60,6 +65,7 @@ body{
 .nav-container a{
     text-decoration: none;
     color: var(--white-color);
+    display: inline-block;
 }
 
 .hmb-menu{
@@ -70,15 +76,78 @@ body{
     main 
 */
 
+.card-big{
+    width: 100%;
+    background-color: var(--cyan-color);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: var(--margin-top-30);
+    border-radius: 30px;
+}
+
+.card-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text{
+    width: 80%;
+}
+
+.card-text > h2{
+    color: var(--blue-color);
+}
+
+.card-text{
+    color: var(--gray-color);
+}
+
+.apple{
+    padding-right: 10px;
+}
+
+.card-text button{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border: 1px solid var(--blue-color);
+    padding: 10px 50px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card-top h2,
+.card-top p,
+.card-top button,
+.card-bottom img{
+    margin-top: var(--margin-top-30);
+}
+
+.card-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-img{
+    width: 80%;
+}
+
+.card-img > img{
+    width: 100%;
+    display: block;
+}
 /* 
     footer 
 */
 
 /* Media Query */
 
-/*  Breakpoint Tablet */
+/*  Breakpoint desktop */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
     .nav-container > ul{
         display: block;
