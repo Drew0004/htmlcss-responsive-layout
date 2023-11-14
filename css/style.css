@@ -253,6 +253,37 @@ body{
     line-height: 1.5em;
 }
 
+.purple-card{
+    width: 100%;
+    background-color: var(--purple-color);
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.card-elements{
+    width: 80%;
+    color: var(--white-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-elements > p{
+    line-height: 1.5em;
+}
+
+.testimonial{
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* 
     footer 
 */
