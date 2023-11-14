@@ -88,7 +88,7 @@ body{
     background-color: var(--cyan-color);
     display: flex;
     flex-wrap: wrap;
-    margin-top: var(--margin-top-30);
+    margin-top: 50px;
     border-radius: 30px;
 }
 
@@ -97,7 +97,7 @@ body{
     background-color: var(--cyan-color);
     display: flex;
     flex-wrap: wrap;
-    margin-top: var(--margin-top-30);
+    margin-top: 50px;
     border-radius: 30px;
 }
 
@@ -166,14 +166,30 @@ body{
 
 .section-2{
     background-color: var(--purple-color);
+    padding: 30px 0;
+    margin: 50px 0;
 }
 
 .left-box{
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .right-box{
     width: 100%;
+}
+
+.left-box .drawing-text-box{
+    color: var(--white-color);
+}
+
+.left-box .drawing-text-box > h2{
+    padding-top: 30px; 
+}
+
+.left-box .drawing-text-box > p{
+    padding-top: 30px;    
+    line-height: 1.5em;
 }
 
 .white-card{
@@ -183,19 +199,23 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 .drawing-text-box{
     padding: 0 30px;
 }
 
-.white-card .drawing-text-box > *{
-    text-align: center;
-}
-
 .white-card .drawing-text-box > p{
     font-style: italic;
-    padding-bottom: 50px;
+}
+
+.white-card .drawing-text-box > a{
+    background-color: var(--purple-color);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 30px 0;
 }
 
 .drawing-img-box{
@@ -204,7 +224,6 @@ body{
 
 .drawing-img-box > img{
     width: 100%;
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
