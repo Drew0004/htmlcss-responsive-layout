@@ -37,6 +37,10 @@ body{
     background-color: var(--white-color);
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* 
     header 
 */
@@ -85,11 +89,21 @@ body{
     border-radius: 30px;
 }
 
+.card{
+    width: 100%;
+    background-color: var(--cyan-color);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: var(--margin-top-30);
+    border-radius: 30px;
+}
+
 .card-top{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 .card-text{
@@ -102,6 +116,11 @@ body{
 
 .card-text{
     color: var(--gray-color);
+}
+
+.card-text > i{
+    font-size: 5em;
+    color: var(--blue-color);
 }
 
 .apple{
