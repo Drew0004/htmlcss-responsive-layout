@@ -8,17 +8,29 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+
 /* 
     general 
 */
 
 :root{
     --blue-color: #0483FC;
+    --white-color: white;
 }
 
 .container{
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid var(--white-color);
+    background-color: var(--white-color);
 }
 
 /* 
@@ -27,19 +39,31 @@
 
 .navbar{
     background-color: var(--blue-color);
+    padding: 15px;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container > ul{
+    display: none;
 }
 
 .navbar li{
     display: inline-block;
+    padding-left: 15px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: var(--white-color);
 }
 
 .hmb-menu{
-    display: none;
+    display: block;
 }
 
 /* 
@@ -51,3 +75,17 @@
 */
 
 /* Media Query */
+
+/*  Breakpoint Tablet */
+
+@media screen and (min-width: 768px) {
+
+    .nav-container > ul{
+        display: block;
+    }
+
+    .hmb-menu{
+        display: none;
+    }
+    
+}
