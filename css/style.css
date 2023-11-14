@@ -424,6 +424,21 @@ body{
         width: calc(90% / 2);
         margin-bottom: 0;
     }
+
+    /* main - section 5 */
+    
+    .row{
+        display: flex;
+    }
+    
+    .about-text-col{
+        width: 70%;
+        padding: 0 30px;
+    }
+
+    .about-img-col{
+        width: 30%;
+    }
 }
 
 /*  Breakpoint desktop */
