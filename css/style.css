@@ -317,6 +317,23 @@ body{
         justify-content: flex-start;
     }
 
+    /* main - section 3 */
+    
+
+    .card-top{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .testimonial{
+        margin-right: 20px;
+    }
+
+    .quote{
+        width: 60%;
+        text-align: left;
+    }
 }
 
 /*  Breakpoint desktop */
