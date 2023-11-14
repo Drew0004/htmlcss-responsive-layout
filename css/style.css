@@ -317,6 +317,50 @@ body{
     background-color: var(--purple-color);
 }
 
+/* section 5 */
+
+.about-text-col > h2{
+    color: var(--purple-color);
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.testimonial{
+    position: relative;
+}
+
+.testimonial > i{
+    position: absolute;
+    color: var(--purple-color);
+    font-size: 4em;
+    top: 0;
+    right: 0;
+}
+
+.about-text-col > p{
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.about-img-col .testimonial{
+    margin-bottom: 30px;
+}
+
+.about-img-col h2{
+    font-size: 2em;
+    color: var(--purple-color);
+    line-height: 1.3em;
+    margin-bottom: 30px;
+}
+
+.about-img-col > button{
+    background-color: var(--purple-color);
+    border: 1px solid var(--purple-color);
+    color: var(--white-color);
+    padding: 10px 15px;
+}
+
+
 /* 
     footer 
 */
