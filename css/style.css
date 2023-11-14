@@ -231,6 +231,28 @@ body{
     padding: 10px 0;
 }
 
+/* section 3  */
+
+.testimonial-info-box{
+    text-align: center;
+}
+
+.testimonial-info-box > h4{
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.testimonial-info-box > h3{
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--purple-color);
+    margin-bottom: 30px;
+}
+
+.testimonial-info-box > p{
+    line-height: 1.5em;
+}
+
 /* 
     footer 
 */
