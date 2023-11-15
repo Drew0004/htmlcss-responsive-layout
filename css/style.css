@@ -31,6 +31,12 @@ body{
     padding: 0 30px;
 }
 
+.container-small{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 30px;
+}
+
 .button{
     padding: 10px 15px;
     border-radius: 20px;
@@ -358,6 +364,57 @@ body{
     border: 1px solid var(--purple-color);
     color: var(--white-color);
     padding: 10px 15px;
+}
+
+/* section 6 */
+
+.pricing-box{
+    text-align: center;
+}
+
+.pricing-box > h3{
+    color: lightgray;
+    font-weight: 100;
+    font-size: 1em; 
+    margin-bottom: 10px;
+}
+
+.pricing-box > h2{
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.pricing-box > h1{
+    color: #FDC15E;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.pricing-box > p{
+    color: var(--white-color);
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.pricing-box > a{
+    display: inline-block;
+}
+
+.pricing-box > a > button{
+    padding: 10px 60px;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--purple-color);
+    margin-bottom: 30px;
+}
+
+.pricing-box > div{
+    color: var(--white-color);
+}
+
+.pricing-box > div a{
+    color: var(--white-color);
 }
 
 
