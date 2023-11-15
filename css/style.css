@@ -368,6 +368,12 @@ body{
 
 /* section 6 */
 
+.pricing-purple-background{
+    background-color: var(--purple-color);
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
 .pricing-box{
     text-align: center;
 }
@@ -421,6 +427,32 @@ body{
 /* 
     footer 
 */
+
+.darkgray-background{
+    background-color: #333333;
+    padding: 50px 0;
+}
+
+.footer-box{
+    text-align: center;
+}
+
+.footer-box > p{
+    color: var(--white-color);
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+.footer-box > div{
+    color: var(--white-color);
+}
+
+.footer-box > div > a{
+    color: var(--purple-color);
+    line-height: 1.5em;
+}
+
 
 /* ---------------------MEDIA QUERY-------------------- */
 
